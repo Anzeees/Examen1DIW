@@ -1,0 +1,84 @@
+/* Ángel Martínez Ordiales */
+* {
+    font-family: 'Montserrat',Arial,sans-serif;
+    text-align: center;
+}
+
+footer {
+    padding: 1px 0;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #0b0a0a;
+}
+
+header {
+    display: flex;
+}
+
+header, footer{
+    background-color: #333;
+}
+
+nav {
+    width: 100%;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 0px 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0b0a0a;
+    color: white;
+}
+
+nav a:hover{
+    color: #a9065d;
+    
+}
+
+nav ul {
+    list-style: none;
+}
+
+.button-container {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-container a {
+    padding: 1%;
+    width: 20%;
+    height: auto;
+    border: 2px solid green;
+    border-radius: 4px;
+    text-decoration: none;
+    color:#0b0a0a
+}
+
+.button-container a:hover{
+    width: 20%;
+    height: auto;
+    border: 2px solid rgb(16, 171, 16);
+    background-color: rgb(16, 171, 16);
+    border-radius: 4px;
+    text-decoration: none;
+    color:#6ada79;
+}
+
+.button-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 2px;
+}
